@@ -1,0 +1,8 @@
+[template]
+variables = ["package_dir"]
+
+[template.variables]
+package_dir = { description = "The directory for the package", default = "my_package" }
+
+[template.placeholders]
+package_dir = { type = "string", prompt = "Enter the package directory" }
